@@ -210,7 +210,8 @@ body nav p a:active {
   }
 
   .column a:hover  {
-      color: red;
+    cursor: url('/images/fork.png'), auto;
+    color: red;
   }
 
 
@@ -232,6 +233,7 @@ body nav p a:active {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    cursor: url('/images/fork.png'), auto;
 }
 
 
