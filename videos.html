@@ -8,7 +8,9 @@
   <meta name="description" content="Culinaria á portuguesa">
   <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
   <link href="estilos.css" type="text/css" rel="stylesheet">
-  <title>Culinaria JoDa</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
+  <title>CulinariaJoDa - Receitas portuguesas</title>
 </head>
 
 <body>
@@ -26,13 +28,26 @@
       <nav class="sticky">
         <center>
           <p>
-            <b>
-              <a href="index.html">RECEITAS</a>
-              <a href="videos.html" style=" border-bottom: 5px solid rgb(248, 209, 103);">VIDEOS</a>
-              <a href="veggie.html">VEGGIE</a>
-              <a href="quemSomos.html">QUEM SOMOS</a>
-              <a href="comunidade.html">COMUNIDADE</a>
-            </b>
+            <div class="dropdown">
+              <b><a class="dropbtn" href="index.html">RECEITAS  <i class="fa fa-chevron-down" style="font-size: 13px;"></i></a></b>
+              <div class="dropdown-content">
+                <a href="carnes.html">Pratos de Carne</a>
+                <a href="peixe.html">Pratos de peixe</a>
+                <a href="doces.html">Doces e sobremesas</a>
+              </div>
+            </div>
+          <b>
+            <a href="videos.html"  style=" border-bottom: 5px solid rgb(248, 209, 103);">VIDEOS</a>
+            <a href="veggie.html">VEGGIE</a>
+            <a href="quemSomos.html">QUEM SOMOS</a>
+          </b>
+            <div class="dropdown">
+              <b><a class="dropbtn" href="comunidade.html">COMUNIDADE  <i class="fa fa-chevron-down" style="font-size: 13px;"></i></a></b>
+              <div class="dropdown-content">
+                <a href="comunReceita.html">Receitas</a>
+                <a href="receitaNova.html">A sua Receita</a>
+                <a href="opiniao.html">Deixe-nos a sua Opinião</a>
+            </div>
           </p>
         </center>
       </nav>
@@ -41,9 +56,10 @@
     <div class="div2">
       <main>
 
+
       </main>
     </div>
-   
+
     <div class="div3">
       <aside>
         <section>
@@ -73,7 +89,26 @@
   </div>
   <br>
   <footer>
-    <p>Siga-nos</p>
+    <center>
+    <div class="row">
+      <div class="column">
+        <p><img src="images/logoFot.png" alt="Culinaria JoDa" width="120" height="100"></p>
+      </div>
+      <div class="column">
+        <b><p>Sobre Nós:</b>
+          <br><br>
+          Se procura receitas deliciosas e práticas, quer inspirar-se e partilhar
+          ideias úteis para renovar as refeições do seu dia-a-dia, seja bem-vindo, está na página certa!</p> 
+      </div>
+      <div class="column">
+        <b><p>Siga-Nos:</b>
+        <br><br><br>
+        <a href="https://www.facebook.com/ReceitaseDicasCulinaria/" target="_blank" class="fa fa-lg fa-facebook"></a>             |             
+        <a href="https://www.instagram.com/receitasportuguesas/?hl=pt" target="_blank" class="fa fa-lg fa-instagram"></a>             |             
+        <a href="https://twitter.com/receitasdept" target="_blank" class="fa fa-lg fa-twitter"></a>             |             
+        <a href="images/idk.jpg" target="_blank" class="fa fa-lg fa-github"></a></p> 
+      </div>
+    </center>
   </footer>
 </body>
 

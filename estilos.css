@@ -85,12 +85,19 @@ body aside{
     margin-bottom: 10px;
 }
 
+/* FOOTER */
+
 body footer{ 
     background:rgb(255, 255, 255);
     padding:2px;
-    text-align: right;
-    font-weight: bold;
+    text-align: center;
     margin: auto;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+body footer p{
+    display:inline-block;
+    color:rgb(0, 0, 0);
 }
 
 
@@ -108,15 +115,23 @@ body nav{
 
 body nav p{
     display:inline;
-    color:white;
 }
+
 body nav a{
     display:inline-block;
     padding:10px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-decoration: none;
     border-bottom: 5px solid rgb(199, 199, 199);
+    
 }
+
+body nav div{
+    display:inline-block;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
 
 body nav p a:hover {
     background-color: rgb(255, 255, 255);
@@ -135,6 +150,53 @@ body nav p a:active {
     color: rgb(0, 0, 0);
     border-bottom: 5px solid rgb(248, 209, 103);
 }
+
+/*DROPDOWN NAV*/
+
+.dropdown {
+    float: center;
+
+  }
+  
+  .dropdown .dropbtn {
+    border-color:5px solid rgb(199, 199, 199);
+    color: black;
+  }
+  
+  nav a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(248, 209, 103);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    box-shadow: 0px 8px 16px 0px rgba(65, 64, 64, 0.2);
+    font-size: 12px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* ola */
 
 #Intro::first-letter {
     color: rgb(0, 0, 0);
@@ -209,7 +271,17 @@ body nav p a:active {
     text-decoration: none;
   }
 
-  .column a:hover  {
+  footer .column p{
+    display:inline-block;
+    color:rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  footer .column a:hover  {
+    color: red;
+  }
+
+  main .column a:hover  {
     cursor: url('/images/fork.png'), auto;
     color: red;
   }
@@ -235,6 +307,3 @@ body nav p a:active {
     transform: scale(1.1);
     cursor: url('/images/fork.png'), auto;
 }
-
-
-
