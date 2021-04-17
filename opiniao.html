@@ -25,7 +25,7 @@
         </center>
       </header>
     </div>
-  <div class="div2">
+    <div class="div2">
       <nav>
         <center>
           <p>
@@ -46,7 +46,7 @@
               <b><a class="dropbtn" href="comunidade.html" style=" border-bottom: 5px solid rgb(248, 209, 103);">COMUNIDADE  <i class="fa fa-chevron-down" style="font-size: 13px;"></i></a></b>
               <div class="dropdown-content">
                 <a href="receitaNova.html">A sua Receita</a>
-                <a href="opiniao.html">Deixe-nos a sua Opinião</a>
+                <a href="opiniao.html"  style=" border-bottom: 5px solid rgb(248, 209, 103);">Deixe-nos a sua Opinião</a>
             </div>
           </p>
         </center>
@@ -55,7 +55,40 @@
 
     <div class="div3">
       <main>
-
+          <section>
+            <h2 style="text-align: left;margin-left: 10px; border-bottom: 5px solid rgb(248, 209, 103);">AVALIE O NOSSO WEBSITE</h2>
+            <form action="mailto:jodaculinaria@gmail.com" method="post">
+              <fieldset style="text-align: left;">
+                <legend><b>Comentarios</b></legend>
+                <br>
+                <label for="vol">Clareza : </label>
+                <input type="range" id="vol" name="Clareza" min="0" max="10" oninput="this.nextElementSibling.value = this.value"><output> 5</output><br><br>
+                <label for="vol">Originalidade :</label>
+                <input type="range" id="vol" name="Originalidade" min="0" max="10" oninput="this.nextElementSibling.value = this.value"><output> 5</output><br><br>
+                <label for="vol">Estrutura :</label>
+                <input type="range" id="vol" name="Estrutura" min="0" max="10" oninput="this.nextElementSibling.value = this.value"><output> 5</output><br><br>
+                <label for="vol">Qualidade :</label>
+                <input type="range" id="vol" name="Qualidade" min="0" max="10" oninput="this.nextElementSibling.value = this.value"><output> 5</output><br><br>
+                <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+              <br><br><br>
+                <h3>Sugestões e Opiniões</h3>
+                <textarea class="comentar"  style="resize: vertical;
+                overflow: auto;" name="mensagem" rows="10" cols="60%" placeholder="Insira aqui as suas sujestões"></textarea>
+              <br><br>
+                <input style="margin-left: 5px;" type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
       </main>
     </div>
 

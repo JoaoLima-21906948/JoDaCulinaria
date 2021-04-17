@@ -25,7 +25,7 @@
         </center>
       </header>
     </div>
-  <div class="div2">
+    <div class="div2">
       <nav>
         <center>
           <p>
@@ -45,7 +45,7 @@
             <div class="dropdown">
               <b><a class="dropbtn" href="comunidade.html" style=" border-bottom: 5px solid rgb(248, 209, 103);">COMUNIDADE  <i class="fa fa-chevron-down" style="font-size: 13px;"></i></a></b>
               <div class="dropdown-content">
-                <a href="receitaNova.html">A sua Receita</a>
+                <a href="receitaNova.html"  style=" border-bottom: 5px solid rgb(248, 209, 103);">A sua Receita</a>
                 <a href="opiniao.html">Deixe-nos a sua Opinião</a>
             </div>
           </p>
@@ -55,7 +55,76 @@
 
     <div class="div3">
       <main>
+        <section>
+          <h2 style="text-align: left;margin-left: 10px; border-bottom: 5px solid rgb(248, 209, 103);">DEIXE AQUI A SUA RECEITA</h2>
+          <form action="mailto:jodaculinaria@gmail.com" method="post">
+            <fieldset  style="text-align: left;">
+              <legend><b>Identificação:</b></legend>
+              <div class="row">
+                <div class="column">
+                  <p>Nome: <br> <input class="comentar" type="text" id="nome" name="nome" size="20" maxlength="20" placeholder="Insira nome"
+                      autofocus required></p>
+                  <p>Apelido: <br> <input class="comentar" type="text" id="apelido" name="apelido" size="20" maxlength="20"
+                      placeholder="Insira apelido" required></p>
+                  <p>Email: <br> <input class="comentar" type="email" id="email" name="email" autocomplete="on" placeholder="Insira email"
+                      required></p>
+                </div>
+                <div class="column">
+                  <img src="images/receita.png" alt="Culinaria JoDa" width="250" height="150" style="text-align: center;margin-top: 40px;margin-left: 70px;">
+                </div>
+              </div>
+              <label for="file-upload" class="custom-file-upload">
+                <i class="fa fa-cloud-upload"></i> Fotos da Receita
+              </label>
+              <input id="file-upload" type="file"/>
+              <br><br>
+                <textarea class="comentar"  style="resize: vertical;
+                overflow: auto;" name="mensagem" rows="10" cols="60%" placeholder="Insira aqui a sua Receita"  autofocus required></textarea>
+              <br><br>
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+            </fieldset>
+          </form>
+          <br>
+        </section>
+        <h4 class="block-title"><span style="background-color: rgb(248, 209, 103); padding: 3px;">Receitas Publicadas Recentemente</span></h4>
 
+        <section class="receitas">
+          <div class="row">
+            <div class="column">
+              <a href="massada.html">
+                <div class="zoom">
+                  <figure>
+                    <img src="images/massada-de-peixe.jpg" alt="massada">
+                    <figcaption>Massada</figcaption>
+                  </figure>
+                </div>
+                <p style="text-align:left; margin-top: 3px;">Massada de Peixe</p>
+              </a>
+            </div>
+            <div class="column">
+              <a href="ovos.html">
+                <div class="zoom">
+                  <figure>
+                    <img src="images/ovos-mexidos-com-queijo-e-pao-de-alho-torrado.jpg" alt="ovos">
+                    <figcaption>Ovos</figcaption>
+                  </figure>
+                </div>
+                <p style="text-align:left; margin-top: 3px;">Ovos Mexidos</p>
+              </a>
+            </div>
+            <div class="column">
+              <a href="guisado.html">
+                <div class="zoom">
+                  <figure>
+                    <img src="images/guisado-de-peru-e-grao-com-chourico.jpg" alt="guisado">
+                    <figcaption>Guisado</figcaption>
+                  </figure>
+                </div>
+                <p style="text-align:left; margin-top: 3px;">Guisado de Peru</p>
+              </a>
+            </div>
+          </div>
       </main>
     </div>
 
