@@ -20,7 +20,7 @@
       <header>
         <center>
           <figure>
-            <img src="images/logo2.png" alt="Culinaria JoDa">
+            <img class="resize" src="images/logo2.png" alt="Culinaria JoDa">
           </figure>
         </center>
       </header>
@@ -55,8 +55,147 @@
 
     <div class="div3">
       <main>
+        <h2 style="text-align: left;margin-left: 10px; border-bottom: 5px solid rgb(248, 209, 103);">O NOSSO WEBSITE</h2>
+        <section>
+          <h3 style="text-align: center;font-size: 20px;">Responsividade</h3>
+          <hr>
+          <figure>
+            <img src="/images/mapaWebsite.png" alt="mapaWebsite">
+          </figure>
+       </section>
+        <br>
+        <section>
+          <table>
+            <caption><b>Tabela Inventario</b></caption>
+            <hr>
+              <thead>
+                  <tr>
+                      <th>Designação</th>
+                      <th>Quantidade</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Páginas</td>
+                      <td>13</td>
+                  </tr>
 
-        
+                  <tr>
+                      <td>Imagens</td>
+                      <td>20</td>
+                  </tr>
+
+                  <tr>
+                      <td>Links externos(contando as imagens)</td>
+                      <td>21</td>
+                  </tr>
+
+                  <tr>
+                      <td>Videos</td>
+                      <td>5</td>
+                  </tr>
+
+                  <tr>
+                      <td>Animações</td>
+                      <td>4</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+      <br><br>
+      <section>
+              <table>
+                <caption><b>Técnicas usadas</b></caption>
+                <hr>
+                  <thead>
+                      <tr>
+                          <th>Carateristicas</th>
+                          <th>Elementos/técnicas</th>
+                          <th>Exemplos</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td rowspan="2">Layouts</td>
+                          <td>Grid</td>
+                          <td>Foi usado como construção e organização do layout do website</td>
+                      </tr>
+
+                      <tr>
+                          <td>FlexBox</td>
+                          <td>Foi usado para a galeria de receitas publicadas recentemente</td>
+                      </tr>
+                      <tr>
+                          <td rowspan="2">Etiquetas</td>
+                          <td>
+                              <ul>
+                                  <li>main</li>
+                                  <li>header</li>
+                                  <li>article</li>
+                                  <li>footer</li>
+                                  <li>figure</li>
+                                  <li>iframe</li>
+                                  <li>body</li>
+                                  <li>nav</li>
+                                  <li>section</li>
+                                  <li>article</li>
+                                  <li>p,h</li>
+                              </ul>
+                          </td>
+                          <td rowspan="2">Foram usados em todas as paginas,consoante cada função,
+                              por exemplo nesta pagina foi usado o elemento Table
+                          </td>
+                      </tr>
+
+                      <tr>
+                          <td>
+                              <ul>
+                                  <li>table</li>
+                                  <li>thead</li>
+                                  <li>tbody</li>
+                                  <li>form</li>
+                                  <li>fieldset</li>
+                                  <li>input</li>
+                                  <li>label</li>
+                                  <li>ul,li,a,aside,svg,image</li>
+                                  <li>figcaptio,caption,legend,br</li>
+                                  <li>hr</li>
+                                  <li>picture</li>
+                              </ul>
+                          </td>
+                      </tr>
+
+
+                  </tbody>
+                  <tbody><tr>
+                      <td>Animações</td>
+                      <td>Foram feitas animações usando keyframes que permite "dar vida" a elementos
+                          no website
+                      </td>
+                      <td>Foi usado por exemplo, para dar um zoom no texto quando se passava o cursor,
+                          e tambem na pagina Inicial.
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>Seletores</td>
+                    <td>Foram usados os tipos de seletores: universal, tipo, classe, id, pseudo-class,
+                        pseudo-elemento</td>
+                    <td>Na area de navegação, foi usado o :hover para quando o cursos passar por cima do
+                        elemento
+                        , ser possivel mudar a cor de fundo
+                    </td>
+                  </tr>
+                  <tr>
+                      <td>Efeitos</td>
+                      <td>Foram feitos efeitos para estilizar melhor o nosso website
+                      </td>
+                      <td>Na pagina Inicial, quando o cursos passa por cima da imagem, a propria destaca-se pelo
+                          aumento de tamanho e com uma mudança de background.
+                      </td>
+                  </tr>
+              </tbody>
+            </table>
+          </section>
       </main>
     </div>
 
@@ -81,9 +220,30 @@
         <section>
           <br>
           <h4 class="block-title" style="text-align: center;"><span style="background-color: rgb(248, 209, 103); padding: 3px;">Frase Inspiradora</span></h4>
-          <img width="200" height="250" src="images/frase1.png" alt="frase1">
+          <img width="200" height="250" src="images/frase1.jpg" alt="frase1">
           <br>
         </section>
+        <br>
+        <h4 class="block-title" style="text-align: center;"><span style="background-color: rgb(248, 209, 103); padding: 3px;">Wordcloud</span></h4>
+        <svg width="300" height="225">
+          <image href="images/wordcloud.jpg"></image>
+          <a href="veggie.html">
+            <polygon opacity="0" points="120,29 120,50 183,50 183,29"></polygon>
+          </a>
+          <a href="index.html">
+            <polygon opacity="0" points="69,63 69,90 236,90 236,63"></polygon>
+          </a>
+          <a href="doces.html">
+            <polygon opacity="0" points="197,98 197,110 247,110 247,98"></polygon>
+          </a>
+          <a href="carnes.html">
+            <polygon opacity="0" points="86,113 86,136 214,136 214,113"></polygon>
+          </a>
+          <a href="peixe.html">
+            <polygon opacity="0" points="91,143 91,176 210,176 210,143"></polygon>
+          </a>
+          
+        </svg>
       </aside>
     </div>
   </div>
