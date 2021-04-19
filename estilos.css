@@ -574,15 +574,15 @@ body{
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.flex-container > img {
-  background-color: #333;
-  margin: 10px;
-  margin-left:70px;
+.flex-container > a > img {
+  border: 3px solid #333 ;
+  margin: 3px;
   padding: 5px;
-  height:150px;
-  width:200px;
+  height:130px;
+  width:180px;
 }
 
 .wave {
@@ -600,14 +600,13 @@ body{
 .color {
   float: left;
   margin: 20px;
-  animation: color  ease-in-out 0.5s infinite alternate;
+  animation: color  ease-in-out 2s infinite alternate;
   transform-origin: center -20px;
 }
 
 @keyframes color {
-  0% { background: yellow ;}
-  25% { background: orange ;}
-  50% { background: red ;}
-  75% { background: orange ;}
-  100% { background: yellow ;}
+  0% { border-top-color: rgb(248, 209, 103);}
+  33% { border-left-color: rgb(248, 209, 103);}
+  66% { border-bottom-color: rgb(248, 209, 103);}
+  100% { border-right-color: rgb(248, 209, 103);}
 }
